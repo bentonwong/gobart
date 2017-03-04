@@ -1,5 +1,5 @@
-require_relative "../rt_bart/scraper.rb"
-require_relative "../rt_bart/station.rb"
+require_relative "../gobart/scraper.rb"
+require_relative "../gobart/station.rb"
 require 'nokogiri'
 require 'pry'
 
@@ -170,3 +170,5 @@ class Controller
     handle_request
     goodbye
   end
+
+end

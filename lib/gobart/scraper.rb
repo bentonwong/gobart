@@ -53,3 +53,5 @@ KEY = "ZKZB-PQE6-92VT-DWE9" #BART.gov API Developer Key required to access its A
     doc = Nokogiri::HTML(open(tc_api))
     count = doc.css("traincount").text
   end
+
+end
