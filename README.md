@@ -1,8 +1,8 @@
 # Gobart
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gobart`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem will provide a simple and quick way to get real time departures and individual station information from a CLI interface for every station in the Bay Area Rapid Transit (BART) system.
 
-TODO: Delete this and the text above, and describe your gem
+The data is pulled directly from api.bart.gov.
 
 ## Installation
 
@@ -38,4 +38,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/benton
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
