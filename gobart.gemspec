@@ -6,12 +6,12 @@ require 'gobart/version'
 Gem::Specification.new do |spec|
   spec.name          = "gobart"
   spec.version       = Gobart::VERSION
-  spec.authors       = ["bentonwong"]
+  spec.authors       = ["Benton Wong"]
   spec.email         = ["bentonwong@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Real time BART.gov departure information from CLI interface.}
+  spec.description   = %q{This gem will provide a simple and quick way to get real time departures and individual station information from a CLI interface for every station in the Bay Area Rapid Transit (BART) system.}
+  spec.homepage      = "https://github.com/bentonwong/gobart"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = ["gobart"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"
