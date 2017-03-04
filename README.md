@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use the program:
+
+1. Install the gem.
+2. Type "gobart" to start the program.
+3. Enter the 4 letter station code for the station you want to get information on.
+4. Enter "i" if you want more information about the station.
+5. Optional: you can check other stations.  Your search history for the session is saved and displayed for your convenience.
 
 ## Development
 
